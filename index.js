@@ -10,7 +10,7 @@ function onClick(element) {
     setTimeout (function(){
     audio.currentTime = 0;
     audio.pause();
-    },12000); 
+    },10000); 
   }  
   // Change style of navbar on scroll
   window.onscroll = function() {myFunction()};
