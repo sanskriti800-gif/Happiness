@@ -1,0 +1,266 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="front.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous" />
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="path/to/slick.css">
+    <link rel="stylesheet" href="path/to/slick-theme.css"> -->
+    <link rel="icon" href="images/favicon.ico"> 
+        <title>Good Vibes  ❤️ </title>
+    </head>
+
+<body style="background-color: #FFE6E6;">
+    <!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">INSPIRING</a>
+      <a href="#swing" class="w3-bar-item w3-button w3-hide-small">SWING YOUR MOOD</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+        <i class="fa fa-search"></i>
+      </a>
+    </div>
+  
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#swing" class="w3-bar-item w3-button" onclick="toggleFunction()">SWING YOUR MOOD</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    </div>
+  </div>
+  
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">HAPPY <span class="w3-hide-small">MOOD</span></span>
+    </div>
+  </div>
+
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-hover-text-black w3-wide">ABOUT ME</span>
+    </div>
+  </div>
+  
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about" style="background-color: #FAC0E1;">
+
+    
+    <p class="w3-center"><em>Always love the way you are ! </em></p>
+    <p>Motivation as defined as a reason or reasons for acting or behaving in a particular way. We have our favourites when it comes to motivating ourselves. A song can inspire you to get started with work, sometimes it takes a movie of 2hrs to fill in positive energy in you and sometimes it takes just a couple of minutes of reading. To help you to keep motivated i thought of bringing out this motivational sites.</p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <img src="/images/image2.jfif" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      </div>
+  
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>Welcome to my website. I am Sanskriti gupta , I grew up in as a middle child. Accustomed to being around primarily adults, I was always mature for my age. Even my own friends often annoyed me during my adolescent years. I am undergraduate student, enrolled in computer science. As I glanced past, during my higher studies I gone through alot of pressure and anxiety, I could remember I had no one in my side to motivate me. So it make me cried alot, I just want to tell people that Tear doesn't defines you weak but it's only you who define what you are ! Quote my words ,"It's your life and you decide how to live it". </p>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-hover-text-black w3-wide">INSPIRING</span>
+    </div>
+  </div>
+  
+  <!-- Container (Portfolio Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="portfolio" style="background-color:  #FFA8B8;">
+    <h3 class="w3-center">Good Vibes</h3>
+    <p class="w3-center"><em> “Always remember you are braver than you believe, stronger than you seem, and smarter than you think.”<br> Click on the images to make them bigger</em></p><br>
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="images/depress3.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/motivational2.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/depress1.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/motivational4.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="images/motivational5.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/motivational6.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/motivational7.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/motivational8.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-hover-text-black w3-wide">SWING YOUR MOOD</span>
+    </div>
+  </div>
+
+
+  <div class="w3-content w3-container w3-padding-64" id="swing" style="background-color:  #FFA8B8;">
+    <h3 class="w3-center">Good Vibes</h3>
+    <p class="w3-center"><em>“You have to be at your strongest when you’re feeling at your weakest.”<br> Click on the images and see what your life is all about</em></p><br>
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="images/quote1.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio1">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/quote2.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio2">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/quote3.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio3">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/quote4.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio4">
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="images/quote5.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio5">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/quote6.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio6">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/quote7.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio7">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/quote8.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="audio8">
+      </div>
+      
+    </div>
+  </div>
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+  
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+       <span class="w3-xxlarge w3-hover-text-black w3-wide">FRESH LIFE</span>
+    </div>
+  </div>
+  
+  <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="contact" style="background-color: #D988BC;">
+    <h3 class="w3-center">SHARE YOUR FEAR</h3>
+    <p class="w3-center"><em>And let it go!</em></p>
+  
+    <div class="w3-row w3-padding-32 w3-section">
+      <div class="w3-col m4 w3-container">
+        <img src="images/birdletter.jfif" class="w3-image w3-round" style="width:100%">
+      </div>
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> India<br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 7068335774<br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: gupta.sanskriti08@gmail.com<br>
+        </div>
+        <p>Swing by for a cup of <i class="fa fa-coffee"></i>, and leave me a note:</p>
+        <form action="mailto: gupta.sanskriti08@gmail.com" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-right w3-section" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-center  w3-padding-64 w3-opacity w3-hover-opacity-off" style="background-color: #FAC0E1; padding-top: 5%;">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <p>Made With Love ❤️</p>
+  </footer>
+  <script src="front.js" charset="utf-8"></script>
+</body>
+</html>
+
+
+
+<!-- <div class="top-layer" style="background-color: #FAC0E1;">
+</div>
+</div>
+<div class="top-layer" style="background-color: #FFA8B8;">
+</div>
+</div><div class="top-layer" style="background-color: #D988BC;">
+</div> -->
+
+<!-- <div data-testid="stories-container" class="css-zkwvui">
+  <h2 class="css-ilkm50" data-testid="stories-module-title">Headspace Stories</h2>
+  <div class="css-1nlbk8n"><div class="css-1i2qc2w" data-testid="stories-carousel-wrapper">
+    <div style="transform: translateX(-1797px) translateZ(0px);" data-testid="carousel-inner-container" class="css-1efkr3z">
+      <div class="css-k7i535" data-testid="carousel-item" style="order: 4; transform: none;">
+        <div class="sibling css-1uje7lc" data-testid="story-card">
+          <div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>I came to learn that the storyline in my head … was holding me back.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Peter, Belgium</p><p class="css-1kw0oer">on what he learned when sitting with himself</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 5; transform: none;"><div class="active css-17fr38m" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>Headspace provides me with … a connection to myself, and a disconnection from negative thoughts, feelings, and sensations.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Keri, UK</p><p class="css-1kw0oer">on finding her happy place</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 6; transform: none;"><div class="sibling css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>Changing my thoughts has allowed me to change my life.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Davide, London</p><p class="css-1kw0oer">on using meditation to turn his life around</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 7; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>I now go to a place where I was previously afraid to go — inward, to myself.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Felix, Germany</p><p class="css-1kw0oer">on learning to smile again</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 8; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>Headspace … has allowed me to simply be present with my patients, and not stuck in my emotions.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Tracey, Boston</p><p class="css-1kw0oer">on how meditation has benefited her as a nurse</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 9; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>Andy’s guidance helped me to understand the functioning of the mind.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Olga, Czech Republic</p><p class="css-1kw0oer">on the positive impact of guided meditations</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 10; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>I was broken … then someone told me to try meditation.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Lynne, UK</p><p class="css-1kw0oer">on how meditation proved to be a turning point</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 0; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>The stress and loneliness courses … taught me how to comfort myself.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Alicia, Canada</p><p class="css-1kw0oer">on managing the trauma of sexual assault</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 1; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>A happy workforce leads to a happy work environment.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Jaime, Spain</p><p class="css-1kw0oer">on the benefits of his employees embracing meditation</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 2; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>Headspace gives me a slice of the day that’s just for me.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Nadien, New Mexico</p><p class="css-1kw0oer">on prioritizing self-care</p></div></div></div><div class="css-k7i535" data-testid="carousel-item" style="order: 3; transform: none;"><div class=" css-1uje7lc" data-testid="story-card"><div class="css-1dlw2cl"><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" data-testid="story-quote" class="css-63fkco"><path fill="currentColor" fill-rule="evenodd" d="M4.49 7.529a5.3 5.3 0 011.174-.131c3.128 0 5.663 2.716 5.663 6.065 0 3.35-2.535 6.066-5.663 6.066S0 16.814 0 13.463c0-.098.002-.197.007-.295H0C0 8.113 3.84 4 8.56 4v2.036c-1.531 0-2.943.558-4.07 1.493zm12.674 0c.378-.086.77-.131 1.172-.131 3.128 0 5.664 2.716 5.664 6.065 0 3.35-2.536 6.066-5.664 6.066-3.128 0-5.663-2.715-5.663-6.066 0-.098.002-.197.007-.295h-.007c0-5.055 3.84-9.168 8.56-9.168v2.036c-1.532 0-2.943.558-4.07 1.493z" clip-rule="evenodd"></path></svg><div class="css-1mbze4v" data-testid="markdown"><p>Your app brings so much peace and tolerance to our home.</p></div></div><div class="css-1dlw2cl"><p class="css-13gccti">Rachael, UK</p><p class="css-1kw0oer">on meditation’s positive effect on family life</p></div></div></div></div></div><div class="css-1tfd4di" data-testid="stories-carousel-navigator"><div><button class="css-zsmxdg" data-testid="stories-carousel-control-left-animated-button" type="button"><span class="css-1ghzr7f"><div data-testid="stories-carousel-control-left-animated" class="css-1ih16pb" style="opacity: 0; transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);"></div><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M14.44 19.71l-7-7a1 1 0 010-1.41l7-7 1.41 1.41L9.56 12l6.29 6.29-1.41 1.42z" clip-rule="evenodd"></path></svg></span></button></div><div><button class="css-zsmxdg" data-testid="stories-carousel-control-right-animated-button" type="button"><span class="css-1ghzr7f"><div data-testid="stories-carousel-control-right-animated" class="css-1ih16pb" style="opacity: 0; transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);"></div><svg width="1em" height="1em" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M9.56 19.71l-1.41-1.42L14.44 12 8.15 5.71l1.41-1.42 7 7a1 1 0 010 1.41l-7 7.01z" clip-rule="evenodd"></path></svg></span></button></div></div></div></div> -->
+
